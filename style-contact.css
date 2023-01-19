@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Lato', sans-serif;
+    background-color: #fff;
+    color: #222;
+    margin: 0;
+}
+
+.text-head{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 2rem;
+    
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+    padding: 30px;
+    padding-top: 0%;
+}
+
+.contact ul{
+    padding: 0%;
+}
+
+.contact ul li{
+    list-style: none;
+    text-align: center;
+}
+
+.contact ul li i{
+    display:flex;
+    justify-content: center;
+    padding: 25px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.connect-container{
+    text-align: center;
+    padding: 40px;
+    /* padding-top: 0%; */
+
+}
+
+.connect-container a i{
+    font-size: 20px;
+    color: #FF7979;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.connect-container a i:hover{
+    color:#222;
+    border:#222;
+    transition: 1s;
+}

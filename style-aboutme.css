@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Lato', sans-serif;
+    background-color: #fff;
+    color: #222;
+    margin: 0;
+}
+
+.text-aboutme{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 2rem;
+}
+
+.picture-rose{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+.box-zone{
+    padding: 30px;
+    margin: 20px;
+    background-color:  rgb(245, 241, 237);
+    border-radius: 4px;
+}
+
+.box-zone img{
+    width: 100%;
+    border-radius: 4px;
+}
+
+.box-zone:hover{
+    background-color: #fff;
+    transform: rotate(-7deg);
+    transition: all 0.3s linear;
+    border:1px solid #bbb;
+}
+
+.text-head{
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+
+b{
+    font-size: 18px;
+    font-weight: bolder;
+    line-height:30px ;
+}
+
+.section-1{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+
+
+.curiculum-container{
+   padding: 40px;
+   line-height: 35px;
+}
+
+.skill-container{
+    padding: 38px;
+}
+
+.education-container{
+    padding: 40px;
+    line-height:30px ;
+}
+
+.work-experience{
+    padding: 40px;
+}
+
+.connect-container{
+    text-align: center;
+    padding: 40px;
+    padding-top: 0%;
+
+}
+
+.connect-container a i{
+    font-size: 20px;
+    color:  #FF7979;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.connect-container a i:hover{
+    color:#222;
+    border:#222;
+    transition: 1s;
+}
